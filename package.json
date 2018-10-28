@@ -1,0 +1,38 @@
+{
+  "name": "rhl-electron-quick-start",
+  "version": "1.0.0",
+  "description": "RHL Electron Quick Start (based on electron-quick-start)",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.prod.js && electron .",
+    "start2": "cross-env NODE_ENV=development electron ."
+  },
+  "author": "Andreas Opferkuch",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "cross-env": "^5.1.4",
+    "electron": "^3.0.6",
+    "electron-devtools-installer": "^2.2.4",
+    "express": "^4.16.3",
+    "react-hot-loader": "^4.1.2",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-middleware": "^3.4.0",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-hot-middleware": "^2.24.3",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
